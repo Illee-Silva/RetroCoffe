@@ -1,0 +1,177 @@
+@font-face{
+    font-family: PixelMania;
+    src:url(Pixelmania.ttf);
+}
+
+*{
+    padding:0;
+    margin:0;
+}
+
+
+.menu_nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 75px;
+}
+
+
+
+.barra_nav{
+    width: 95%;
+    display:flex;
+    color: whitesmoke;
+    justify-content:left;
+    gap: 100px;
+}
+
+.link_nav{
+font-size:1rem;
+font-family:PixelMania;
+}
+
+li{
+    list-style: none;
+}
+
+
+a{
+    text-decoration:none;
+    color:whitesmoke;
+}
+
+
+body{
+    background-color:#262626;
+    background-image:url("images/BKG.jpeg");
+}
+
+
+header{
+    top: 0;
+    width: 100%;
+    position:fixed;
+    background-color: black;
+    outline: 2px solid whitesmoke;
+}
+
+
+.logo{
+    width:70px;
+    height:70px;
+    margin-left:30px;
+}
+
+
+.texto_default{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    align-items: center;
+    background-color:rgba(0,0,0,0.97);
+    margin-top:100px;
+    color: antiquewhite;
+    width: 700;
+    margin-left: 50px;
+    margin-right: 50px;
+    outline:solid #eeb257;
+    text-align: center;
+    font-style:italic;
+    
+}
+
+.texto_imbutido{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    align-items: center;
+    margin-top:70px;
+    color: antiquewhite;
+    width: 700;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    font-style:italic;
+    
+}
+
+.para_default{
+    font-family: 'Lucida Sans',sans-serif;
+    align-items: left;
+    color: antiquewhite;
+    width: 600;
+    margin-left: 100px;
+    margin-right: 100px;
+    outline:solid #eeb257;
+    background-color:rgba(0,0,0,0.97);
+    font-size:1.3rem;
+}
+
+.paragrafo_titulo_imbutido{
+    font-family: 'Lucida Sans',sans-serif;
+    align-items: left;
+    color: antiquewhite;
+    width: 600;
+    margin-left: 100px;
+    margin-right: 100px;
+    outline:solid #eeb257;
+    background-color:rgba(0,0,0,0.97);
+    font-size:1.3rem;
+    margin-top:-40px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.image_java{
+    width:600px;
+    height:300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    outline:solid #eeb257;
+}
+
+.titulo{
+    font-style: italic;
+    font-family: 'Lucida Sans',sans-serif;
+    align-items: left;
+    color: antiquewhite;
+    width: 600;
+    margin-left: 100px;
+    margin-right: 100px;
+    outline:solid #eeb257;
+    background-color:rgba(0,0,0,0.97);
+    font-size:1.3rem;
+    text-align: center;
+    margin-top:15px;
+    height: 35px;;
+    padding-top: 9px;
+}
+
+
+.semout{
+    outline:none;
+    position:absolute;
+    left: 610px;
+    top:10px;
+    background-color:none;
+}
+
+#topo{
+    background:black;
+}
+
+.rodape {
+
+    background-color: rgb(0, 0, 0);
+    color: #dbdbdb;
+    padding: 24px;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+a:hover {
+   /* background-color: #272727; */
+    color: #eeb257;
+    
+}
