@@ -54,6 +54,7 @@ header{
     position:fixed;
     background-color: black;
     outline: 2px solid whitesmoke;
+    z-index:1;
 }
 
 
@@ -90,6 +91,12 @@ header{
     text-align: center;
     font-style:italic;
     
+}
+
+.imagem{
+    display:block;
+    position: relative;
+    left:40%;
 }
 
 .para_default{
@@ -161,6 +168,9 @@ header{
 
 .rodape {
 
+    position: relative;
+    top: 30px;
+    bottom: 0%;
     background-color: rgb(0, 0, 0);
     color: #dbdbdb;
     padding: 24px;
@@ -171,7 +181,16 @@ header{
 }
 
 a:hover {
-   /* background-color: #272727; */
     color: #eeb257;
     
 }
+
+
+.backportf{
+    position:fixed;
+    z-index:-1;
+    margin-top: -10%;
+}
+
+
+
